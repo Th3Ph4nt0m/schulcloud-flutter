@@ -88,7 +88,7 @@
   "auth_signOut_message": "Signing out…",
   "calendar_dashboardCard": "Schedule",
   "calendar_dashboardCard_empty": "No more events for the rest of the day!",
-  "course": "Courses",
+  "course": "Courses (%s)",
   "course_course_property_color": "Color",
   "course_coursesPage_empty": "You don't have any courses.",
   "course_coursesPage_emptyFiltered": "No courses found matching your filter criteria.",

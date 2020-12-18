@@ -49,7 +49,8 @@ class CoursesPage extends StatelessWidget {
       initialSelection: sortFilterSelection,
       collection: services.storage.root.courses,
       appBarBuilder: (context, showSortFilterSheet) => FancyAppBar(
-        title: Text(context.s.course),
+        title: Text(context.s.course
+            .replaceAll('%s', 'Size')), // TODO get amount of courses
         actions: <Widget>[SortFilterIconButton(showSortFilterSheet)],
       ),
       emptyStateTextGetter: (s) => s.course_coursesPage_empty,

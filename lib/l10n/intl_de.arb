@@ -88,7 +88,7 @@
   "auth_signOut_message": "Abmelden…",
   "calendar_dashboardCard": "Stundenplan",
   "calendar_dashboardCard_empty": "Keine Termine für den Rest des Tages!",
-  "course": "Kurse",
+  "course": "Kurse (%s)",
   "course_course_property_color": "Farbe",
   "course_coursesPage_empty": "Du hast keine Kurse.",
   "course_coursesPage_emptyFiltered": "Es wurden keine Kurse gefunden, die deinen Filtern entsprechen.",

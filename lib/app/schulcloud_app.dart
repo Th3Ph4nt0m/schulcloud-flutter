@@ -187,7 +187,7 @@ class _BottomTab {
   static final course = _BottomTab(
     key: ValueKey<String>('navigation-course'),
     icon: ScIcons.course,
-    title: (s) => s.course,
+    title: (s) => s.course.replaceAll(' (%s)', ''),
     initialRoute: services.config.webUrl('courses'),
   );
   static final assignment = _BottomTab(
